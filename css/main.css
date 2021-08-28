@@ -1,0 +1,100 @@
+/* reset */
+
+* {
+  background-color: #fff;
+  color: #000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  color: #505050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  padding: 5px;
+}
+
+.container-main {
+  background-color: #eee;
+  border: 3px solid #ddd;
+  border-radius: 7.5px;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: -2.5px -2.5px 2.5px 2.5px #bbb;
+}
+
+.container-display {
+  background-color: #fff;
+  border-radius: 7.5px;
+  border: 2px solid #ccc;
+  min-height: 40px;
+  margin: 10px;
+  color: #99f;
+  text-align: right;
+  padding: 12px 15px;
+}
+
+.container-buttons {
+  background-color: #aaa;
+  border-radius: 7.5px;
+  min-height: 160px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.button {
+  background-color: #999999;
+  color: #000;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 4px;
+  height: 20%;
+  width: 30%;
+  box-shadow: 1px 1px 1px 1px #777;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #ccc;
+  box-shadow: 1px 1px 1px 1px #ddd;
+}
+
+.off {
+  background-color: #ddd;
+}
+
+.contact {
+  position: absolute;
+  bottom: 30px;
+  right: 30%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .button {
+    padding: 2px;
+    margin: 2px;
+    border-radius: 3px;
+    height: 20%;
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .button {
+    padding: 1px;
+    border-radius: 2px;
+    height: 20%;
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 410px) {
+  .button {
+    width: 28%;
+  }
+}
